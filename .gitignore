@@ -1,0 +1,6 @@
+﻿__pycache__/
+*.pyc
+results/*.jsonl
+*.npy
+.cache/
+hotpot_dev_distractor_v1.json
