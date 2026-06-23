@@ -1,4 +1,4 @@
-# rag-bench — Vector RAG vs TurboVec vs Wiki-style Retrieval
+# rag-bench: Vector RAG vs TurboVec vs Wiki-style Retrieval
 
 A small, fair, end-to-end benchmark harness comparing retrieval philosophies on HotpotQA (multi-hop QA).
 
@@ -19,7 +19,8 @@ Fairness controls baked in: same generator LLM, same prompt template, same fixed
 pip install sentence-transformers faiss-cpu turbovec datasets
 ```
 
-Generator LLM — pick one in `config.py`:
+Generator LLM 
+Pick one in `config.py`:
 - **Ollama (free, local, default):** install Ollama, `ollama pull llama3.1:8b`
 - **Anthropic API:** set `LLM_BACKEND = "anthropic"` and export `ANTHROPIC_API_KEY`
 
